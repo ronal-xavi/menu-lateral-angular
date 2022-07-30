@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'menu-lateral';
+
+  enlaces :any[] = [
+    {
+      nombre:'Registrar',
+      link: ['registrar-link']
+    },
+    {
+      nombre:'Registrar',
+      link: ['registrar-link']
+    },
+    {
+      nombre:'Registrar',
+      link: ['registrar-link']
+    }
+  ]
+
 }
